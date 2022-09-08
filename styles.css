@@ -1,0 +1,23 @@
+p{
+    /* intrinsic box sizing */
+    width: auto;
+    height: auto;
+    padding: 20px;
+    /* border: 1px solid; */
+    outline: auto;
+    font-size: 50px;
+    padding: 50px;
+    
+}
+
+li{
+    display: block;
+    box-sizing: border-box;
+    width:200px;
+    /* display: inline-block; */
+    /* display: list-item; */
+    margin: 50px;
+    outline: auto;
+    padding: 20px;
+    
+}
