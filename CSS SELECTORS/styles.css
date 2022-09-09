@@ -1,0 +1,9 @@
+article p:first-of-type{
+    color: red;
+    display: inline-block;
+    background-color: black;
+}
+
+article p:first-child{
+    
+}
