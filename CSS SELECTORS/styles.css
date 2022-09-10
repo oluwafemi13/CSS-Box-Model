@@ -4,6 +4,6 @@ article p:first-of-type{
     background-color: black;
 }
 
-article p:first-child{
-    
+article {
+    padding: 2em;
 }
