@@ -7,3 +7,68 @@ article p:first-of-type{
 article {
     padding: 2em;
 }
+
+.my-h1{
+    font-size: medium;
+    color: black;
+}
+
+.my-div{
+    display: block;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: blueviolet;
+    border: 5px solid;
+    margin: 10rem;
+
+}
+#my-first-id{
+    color: crimson;
+    font-size: large;
+
+}
+
+[action="POST"]{
+    display: block;
+    outline: auto;
+    border: 10px solid;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: line-through;
+    font-size: 50px;
+    color: black;
+
+}
+/* this is used to target the anchor tag with whose modulus = 0 */
+a:nth-child(even){
+
+    color: blue;
+    display: block;
+    background-color: brown;
+}
+button{
+    display:inline-block;
+    width: 100px;
+    height:30px;
+    
+}
+
+button:hover::before{
+    content: "Pseudo-Element";
+}
+
+button:hover::after{
+    content: "Pseudo-Element-Changed";
+}
+p:first-child::selection{
+
+    color: white;
+}
+ul li::marker{
+    color: red;
+}
