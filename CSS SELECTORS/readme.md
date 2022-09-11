@@ -68,7 +68,24 @@ Pseudo Elements:
     This acts like it is inserting a new element in the targeted html element using css and is syntactically denoted using double-colon (::)
     example:
         a::before{
-            
+
         }
 
 
+Complex Selectors:
+
+Combinators:
+    This is what sits between two selectors.
+    example: p > strong.
+    Descendant combinators:
+        This is the child element within the parent element.
+        Example:
+            p strong{
+                color:blue;
+            }
+    sibling combinator:
+        This involves using the + symbol to find element that immediately follows another element.
+    subsequent-sibling combinator:
+        This uses ~ symbol as a combinator instead of + symbol. The difference is that an element just has to follow another element in the same parent instead of being the next element with the same parent.
+    child combinator: 
+        uses the > symbol. This applies only to direct child or descendant.w
