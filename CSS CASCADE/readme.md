@@ -1,0 +1,1 @@
+cascade is the algorithm for solving conflicts where multiple CSS rules apply to an HTML element.
